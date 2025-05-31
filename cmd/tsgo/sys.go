@@ -7,12 +7,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/microsoft/typescript-go/internal/bundled"
-	"github.com/microsoft/typescript-go/internal/core"
-	"github.com/microsoft/typescript-go/internal/execute"
-	"github.com/microsoft/typescript-go/internal/tspath"
-	"github.com/microsoft/typescript-go/internal/vfs"
-	"github.com/microsoft/typescript-go/internal/vfs/osvfs"
+	"github.com/frida/typescript-go/pkg/bundled"
+	"github.com/frida/typescript-go/pkg/core"
+	"github.com/frida/typescript-go/pkg/execute"
+	"github.com/frida/typescript-go/pkg/tspath"
+	"github.com/frida/typescript-go/pkg/vfs"
+	"github.com/frida/typescript-go/pkg/vfs/osvfs"
 )
 
 type osSys struct {

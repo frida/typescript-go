@@ -972,7 +972,7 @@ export const buildNativePreviewPackages = task({
 
         let ldflags = "-ldflags=-s -w";
         if (options.setPrerelease) {
-            ldflags += ` -X github.com/microsoft/typescript-go/internal/core.version=${getVersion()}`;
+            ldflags += ` -X github.com/frida/typescript-go/pkg/core.version=${getVersion()}`;
         }
         const extraFlags = ["-trimpath", ldflags];
 

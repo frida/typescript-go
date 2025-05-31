@@ -29,7 +29,7 @@ For tests and code generation, this repo contains a git submodule to the main Ty
 When cloning, you'll want to clone with submodules:
 
 ```sh
-git clone --recurse-submodules https://github.com/microsoft/typescript-go.git
+git clone --recurse-submodules https://github.com/frida/typescript-go.git
 ```
 
 If you have already cloned the repo, you can initialize the submodule with:

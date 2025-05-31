@@ -22,4 +22,4 @@ You can enable this extension by modifying the following settings:
 
 ## Feedback
 
-If you encounter any issues or have suggestions for improvement, please open an issue on the [GitHub repository](https://github.com/microsoft/typescript-go).
+If you encounter any issues or have suggestions for improvement, please open an issue on the [GitHub repository](https://github.com/frida/typescript-go).

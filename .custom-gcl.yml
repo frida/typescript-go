@@ -5,6 +5,6 @@ version: v2.0.2
 destination: ./_tools
 
 plugins:
-  - module: 'github.com/microsoft/typescript-go/_tools'
-    import: 'github.com/microsoft/typescript-go/_tools/customlint'
+  - module: 'github.com/frida/typescript-go/_tools'
+    import: 'github.com/frida/typescript-go/_tools/customlint'
     path: ./_tools

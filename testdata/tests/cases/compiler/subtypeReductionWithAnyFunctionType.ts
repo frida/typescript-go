@@ -2,7 +2,7 @@
 // @target: esnext
 // @noEmit: true
 
-// https://github.com/microsoft/typescript-go/issues/849
+// https://github.com/frida/typescript-go/issues/849
 
 declare function useMemo<T>(func: () => T): T;
 
